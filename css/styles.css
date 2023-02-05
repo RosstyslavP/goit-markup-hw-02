@@ -1,10 +1,15 @@
 :root {
   --primery-background-color: #e5e5e5;
   --background-white: #ffffff;
+  --secondary-color: #f4f4fd;
+  --footer-background-color: #2e2f42;
   --primery-text-color: #434455;
   --text-color: #2e2f42;
-  --accent-color: #4d5ae5;
   --white-text: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --accent-color: #4d5ae5;
+  --focus-color: #404bbf;
+  --footer-text-color: #e7e9fc;
 }
 
 body {
@@ -118,7 +123,7 @@ ul {
 }
 
 .section-team {
-  background: #f4f4fd;
+  background: var(--secondary-color);
 }
 
 .team {
@@ -141,15 +146,15 @@ ul {
 
 /* footer */
 .footer {
-  background: #2e2f42;
+  background: var(--footer-background-color);
 }
 
 .footer .logo {
-  color: #f4f4fd;
+  color: var(--secondary-color);
 }
 
 .footer-text {
-  color: #e7e9fc;
+  color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.5;
 }
@@ -157,8 +162,9 @@ ul {
 /* Styles for pornfolio.html */
 
 .filter .button {
-  background: #f4f4fd;
+  background: var(--secondary-color);
   color: var(--accent-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -169,7 +175,7 @@ ul {
 .filter .button:hover,
 .filter .button:focus {
   color: var(--white-text);
-  background: #404bbf;
+  background: var(--focus-color);
 }
 
 /* projects */
