@@ -121,6 +121,10 @@ ul {
   background: #f4f4fd;
 }
 
+.team {
+  background: var(--background-white);
+}
+
 .team-title {
   color: var(--text-color);
   font-weight: 500;
